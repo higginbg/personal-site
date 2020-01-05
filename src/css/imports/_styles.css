@@ -10,6 +10,6 @@
     transition: var(--hover-transition);
   }
   & ul a:hover, & ul a:focus {
-    border-bottom: var(--spacing-small) solid var(--white);
+    border-bottom: var(--spacing-extra-small) solid var(--white);
   }
 }
