@@ -8,6 +8,10 @@
   color: var(--secondary);
 }
 
+.tertiary {
+  color: var(--tertiary);
+}
+
 .highlight {
   color: var(--highlight);
 }
@@ -42,6 +46,14 @@
 
 .bg-primary {
   background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
 }
 
 .bg-highlight {
