@@ -10,6 +10,6 @@
     transition: var(--hover-transition);
   }
   & ul a:hover, & ul a:focus {
-    border-bottom: inset 0 -5px 0 var(--white);
+    border-bottom: 3px solid var(--white);
   }
 }
