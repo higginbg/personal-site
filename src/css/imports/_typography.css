@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   font-size: var(--font-size);
   @media (--breakpoint-medium) {
     font-size: var(--font-size-m);
