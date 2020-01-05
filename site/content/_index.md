@@ -11,18 +11,21 @@ intro:
 projects:
     - image: img/calculator.png
       text: Calculator
+      link: https://codepen.io/higginbg/full/LYYYerm
     - image: /img/quotes.png
       text: Quote Generator
+      link: https://codepen.io/higginbg/full/GRRKOKv
     - image: /img/markdown-previewer.png
       text: Markdown Previewer
+      link: https://codepen.io/higginbg/full/WNNOJbz
     - image: /img/drum-pad.png
       text: Drum Pad
+      link: https://codepen.io/higginbg/full/BaaJoYe
     - image: /img/pomodoro-timer.png
       text: Pomodoro Timer
+      link: https://codepen.io/higginbg/full/gOOPrLd
     - image: /img/technical-documentation.png
       text: Technical Documentation
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+      link: https://codepen.io/higginbg/full/jONzrYG
 ---
 
