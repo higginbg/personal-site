@@ -1,3 +1,7 @@
+.b--transparent {
+  border-color: transparent;
+}
+
 .b--primary {
   border-color: var(--primary);
 }
