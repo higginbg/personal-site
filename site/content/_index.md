@@ -10,7 +10,7 @@ intro:
 projects:
     - image: img/calculator.png
       text: "Calculator"
-    - image: /img/quote-generator.png
+    - image: /img/quotes.png
       text: "Quote Generator"
     - image: /img/markdown-previewer.png
       text: "Markdown Previewer"
