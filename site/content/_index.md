@@ -12,12 +12,10 @@ projects:
       text: "Calculator"
     - image: /img/quotes.png
       text: "Quote Generator"
-projects:
     - image: /img/markdown-previewer.png
       text: "Markdown Previewer"
     - image: /img/drum-pad.png
       text: "Drum Pad"
-projects:
     - image: /img/pomodoro-timer.png
       text: "Pomodoro Timer"
     - image: /img/technical-documentation.png
