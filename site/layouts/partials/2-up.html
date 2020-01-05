@@ -5,10 +5,12 @@
 
     <div class="flex flex-row flex-wrap mhn2-ns mb3">
       {{ range .projects }}
-      <a class="ph2-ns w-50-ns" href="{{.link}}" target="_blank">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
-      </a>
+      <div class="ph2-ns w-50-ns">
+        <a href="{{.link}}" target="_blank">
+          <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
+          <p>{{.text}}</p>
+        </a>
+      </div>
       {{ end }}
     </div>
 
