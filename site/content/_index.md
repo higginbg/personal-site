@@ -4,11 +4,11 @@ subtitle: Web Developer
 blurb:
     heading: My Background
     text: "With a track record of exceptional customer service and over three years of experience on front-end projects, I know what it takes to fulfill customer needs.  
-</br>
+
 During my time at Oregon State University, I worked closely with professors to design their authored books for the web, ensuring their visions came to life.  I oversaw the production and completion of 10 web-based books.  
-</br>
+
 At UC San Diego, I have worked with administrative faculty to create user-friendly reports that often exceeded expectations.  I was awarded the Staff Appreciation and Recognition Award for “exceptional customer service, proactively streamlining processes, and innovating solutions to improve customer experience.”  
-</br>
+
 I take pride in ensuring customers’ needs are heard and met."
 intro:
     id: projects
