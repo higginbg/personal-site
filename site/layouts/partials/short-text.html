@@ -1,6 +1,6 @@
 <div id="{{.id}}" class="bg-tertiary white pv4">
   <div class="flex-l mhn1-l ph3 center mw7">
     <h2 class="f2 lh-title mb2 w-40-l">{{.heading}}</h2>
-    <p class="w-60-l mb0">{{.text}}</p>
+    <p class="w-60-l mb0">{{ (replace .text "\n" "<br/>") | safeHTML}}</p>
   </div>
 </div>
