@@ -13,7 +13,7 @@
 
 /* Used in the navbar */
 .divider-grey {
-  box-shadow: 0 5px 10px var(--grey-4);
+  /* box-shadow: 0 5px 10px var(--grey-4); */
   /* Link hover states */
   & a {
     transition: var(--hover-transition);
