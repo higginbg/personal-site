@@ -5,9 +5,9 @@
 
     <div class="flex flex-row flex-wrap mhn2-ns mb3">
       {{ range .projects }}
-      <a class="pb2 ma2 w-40-ns no-underline bg-primary" href="{{.link}}" target="_blank">
+      <a href="{{.link}}" target="_blank" class="pb2 ma2 w-40-ns no-underline bg-primary">
         <img src="{{.image}}" alt="" class="center db mb2">
-        <p class="tc white">{{.text}}</span>
+        <p class="lh-solid tc white">{{.text}}</p>
       </a>
       {{ end }}
     </div>
