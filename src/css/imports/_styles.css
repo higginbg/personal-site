@@ -3,10 +3,10 @@
 }
 
 .shadow {
-  box-shadow: 0 0 5px 2px var(--grey-3);
+  box-shadow: 0 0 5px 2px var(--grey-2);
 
   &:hover {
-    box-shadow: 0 0 5px 2px var(--black);
+    box-shadow: 0 0 5px 5px var(--black);
   }
 }
 
