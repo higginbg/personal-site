@@ -14,7 +14,6 @@ I take pride in ensuring customers’ needs are heard and met."
 intro:
     id: projects
     heading: Projects
-    text: Some of my projects
 projects:
     - image: img/calculator.png
       text: Calculator

@@ -1,14 +1,13 @@
 <div id="{{.intro.id}}" class="bg-off-white pv4">
   <div class="ph3 mw7 center">
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
-    <p class="mb4 mw6">{{.intro.text}}</p>
 
     <div class="flex flex-row flex-wrap mhn2-ns mb3 center">
       {{ range .projects }}
-      <div class="pa2 w-50-ns">
+      <div class="pa2 w-30-ns">
         <a href="{{.link}}" target="_blank" class="db h-100 w-100 no-underline bg-primary shadow">
           <img src="{{.image}}" alt="" class="center db w-100">
-          <p class="pv2 lh-solid tc v-mid white">{{.text}}</p>
+          <p class="h-100 pv2 lh-solid tc v-mid white">{{.text}}</p>
         </a>
       </div>
       {{ end }}
