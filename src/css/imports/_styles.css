@@ -2,6 +2,14 @@
   background-color: var(--highlight);
 }
 
+.shadow {
+  box-shadow: 0 0 5px 2px var(--grey-3);
+
+  &:hover {
+    box-shadow: 0 0 5px 2px var(--black);
+  }
+}
+
 /* Used in the navbar */
 .divider-grey {
   box-shadow: 0 5px 10px var(--grey-4);

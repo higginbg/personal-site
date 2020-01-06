@@ -3,12 +3,14 @@
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
     <p class="mb4 mw6">{{.intro.text}}</p>
 
-    <div class="flex flex-row flex-wrap mhn2-ns mb3">
+    <div class="flex flex-row flex-wrap mhn2-ns mb3 center">
       {{ range .projects }}
-      <a href="{{.link}}" target="_blank" class="ma2 w-40-ns no-underline bg-primary">
-        <img src="{{.image}}" alt="" class="center db w-100">
-        <p class="pv2 lh-solid tc white">{{.text}}</p>
-      </a>
+      <div class="pa2 w-50-ns no-underline bg-primary">
+        <a href="{{.link}}" target="_blank" class="no-underline bg-primary shadow">
+          <img src="{{.image}}" alt="" class="center db w-100">
+          <p class="pv2 lh-solid tc white">{{.text}}</p>
+        </a>
+      </div>
       {{ end }}
     </div>
 
