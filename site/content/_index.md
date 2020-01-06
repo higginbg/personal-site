@@ -4,7 +4,7 @@ subtitle: Web Developer
 blurb:
     id: about
     heading: My Background
-    text: "With a track record of exceptional customer service and over three years of experience on front-end projects, I know what it takes to fulfill customer needs./
+    text: "With a track record of exceptional customer service and over three years of experience on front-end projects, I know what it takes to fulfill customer needs.\
 
 During my time at Oregon State University, I worked closely with professors to design their authored books for the web, ensuring their visions came to life.  I oversaw the production and completion of 10 web-based books.  
 
