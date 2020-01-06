@@ -2,6 +2,7 @@
 title: Gabriel Higginbotham
 subtitle: Web Developer
 blurb:
+    id: about
     heading: My Background
     text: "With a track record of exceptional customer service and over three years of experience on front-end projects, I know what it takes to fulfill customer needs.  
 
