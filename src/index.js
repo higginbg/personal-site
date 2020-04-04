@@ -1,6 +1,16 @@
 // JS Goes here - ES6 supported
 
-import "./css/main.css";
+import './css/main.css';
 
-// Say hello
-console.log("🦊 Hello! Edit me in src/index.js");
+import AOS from 'aos';
+
+window.addEventListener('load', () => {
+  AOS.refresh();
+});
+
+AOS.init({
+  startEvent: 'load',
+  duration: 1000,
+  once: true,
+  easing: 'ease'
+});

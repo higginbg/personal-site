@@ -1,6 +1,7 @@
 ---
 title: Gabriel Higginbotham
 subtitle: Web Developer
+image: img/gabriel-higginbotham.jpeg
 blurb:
     id: about
     heading: My Background

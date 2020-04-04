@@ -1,19 +1,19 @@
 <div id="{{.intro.id}}" class="bg-off-white pv4">
   <div class="ph3 mw7 center">
-    <h2 class="f2 normal lh-title mb2">{{.intro.heading}}</h2>
+    <h2 class="f2 normal lh-title mb2" data-aos="fade-in">{{.intro.heading}}</h2>
 
     <div class="flex flex-row flex-wrap mhn2-ns ma3 center">
       {{ range .projects }}
-      <div class="pa2 w-third-ns">
-        <a href="{{.link}}" target="_blank" class="db h-100 w-100 no-underline bg-primary shadow">
-          <img src="{{.image}}" alt="" class="center db w-100">
+      <div class="pa2 w-third-ns" data-aos="zoom-in">
+        <a href="{{ .link }}" target="_blank" class="db h-100 w-100 no-underline bg-primary shadow br1 overflow-hidden">
+          <img src="{{ .image }}" alt="" class="center db w-100">
           <div class="pv2 tc v-mid white">{{.text}}</div>
         </a>
       </div>
       {{ end }}
     </div>
 
-    <div class="tc ma3">
+    <div class="tc ma3" data-aos="fade-right">
       <a href="https://codepen.io/higginbg/" class="btn raise" target="_blank">See more <i class="fas fa-chevron-right"></i></a>
     </div>
   </div>
